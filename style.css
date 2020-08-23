@@ -1,0 +1,150 @@
+main {
+  display:flex  
+}
+
+.header {
+  height: 400px;
+  width: 300px;
+  position: relative;
+  background-color: #cccccc;
+  background-image: url("https://www.small-screen.co.uk/wp-content/uploads/2019/11/anakin-skywalker-1050x450.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.75;
+  font-family: 'Abril Fatface',     cursive;
+  font-size: 30px;
+  
+}
+.header-text {
+  margin-top: 220px;
+  position: absolute;
+  margin-left: 60px
+}
+h3 {
+  margin:0
+}
+h1 {
+  margin:0;
+  line-height:0.8
+}
+.elsobekezdes {
+  margin-top: 50px;
+  font-size: 1.1em;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.6;
+  color: #46484a;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+li {
+  list-style-type: square;
+}
+
+.idezet {
+  height: 400px;
+  width: 300px;
+  background: #46484a;
+  position: relative;
+  margin-top:50px;
+}
+
+#idezet {
+  font-family: 'Abril Fatface',     cursive;
+  position: absolute;
+  margin-left: 40px;
+  margin-right: 40px;
+  align-items: center;
+  color: white;
+  font-size: 45px;
+}
+#idezet::before {
+  content:"''";
+}
+
+.idezet3 {
+  height: 450px;
+  width: 300px;
+  background: #46484a;
+  position: relative;
+  margin-top:50px;
+}
+
+#idezet3 {
+  font-family: 'Abril Fatface',     cursive;
+  position: absolute;
+  margin-left: 40px;
+  margin-right: 20px;
+  align-items: center;
+  color: white;
+  font-size: 45px;
+}
+#idezet3::before {
+  content:"''";
+}
+h4 {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left:50px;
+}
+
+.rightblock {
+  width: 500px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.alcim {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:1.1em;
+  margin-bottom:0;
+}
+.kisbekezdes {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5;
+}
+h5 {
+  font-style: italic;
+  font-size:1em;
+  margin-left:0px;
+  margin-top:0
+}
+.felsorolas {
+  margin-left: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5;
+}
+hr {
+}
+.navigationbar {
+  width: auto;
+  height:80px;
+  background: #515452;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding-right:80px;
+  padding-left: 80px
+  
+ 
+}
+.menu {
+  
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:1.9em;
+  list-style-type: none; 
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  font-weight: bold;
+}
